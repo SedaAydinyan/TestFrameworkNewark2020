@@ -20,7 +20,11 @@ namespace TestFrameworkNewark2020
             coreMethod.textboxenter(driver, "Id", control_Id.username, input.usernameValue);
             coreMethod.textboxenter(driver, "Name", control_Id.password, input.passvalue);
             coreMethod.buttonclick(driver, "CssSelector", control_Id.loginbutton);
-
+		
+	public static void logout()
+	{
+	core.method.buttonclick(driver, "Id", control_id.logout_click);	
+		    
         }
     }
 }
